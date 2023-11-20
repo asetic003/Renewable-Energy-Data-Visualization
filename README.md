@@ -8,7 +8,8 @@ This programe is created to Visualize the data inside the data.csv file, which i
 
 ## Screenshots
 
-[Capture](https://github.com/asetic003/Renewable-Energy-Data-Visualization/assets/118185716/c58a234d-8a02-4ba8-ba50-3c562dc88bee)
+(https://github.com/asetic003/Renewable-Energy-Data-Visualization/assets/118185716/f29f1fd2-ed65-4b00-b349-f44baaaca95d)
+
 
 
 ## Deployment!
@@ -17,7 +18,7 @@ This programe is created to Visualize the data inside the data.csv file, which i
 To deploy this project run this command in cmd after navigating to the location of the file stored
 
 ```bash
-  pyhton -i programe.py![Capture](https://github.com/asetic003/Renewable-Energy-Data-Visualization/assets/118185716/f29f1fd2-ed65-4b00-b349-f44baaaca95d)
+  pyhton -i programe.py!
 
 ```
 or just run the programe.py programe using python
@@ -26,7 +27,8 @@ or just run the programe.py programe using python
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`pyQt5`
+`pyQt5`![Capture](https://github.com/asetic003/Renewable-Energy-Data-Visualization/assets/118185716/c48ad614-1750-4a2f-b2ce-45d44232e332)
+
 `matlibplot`
 `pandas`
 `numpy`
