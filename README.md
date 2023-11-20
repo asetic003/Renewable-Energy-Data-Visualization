@@ -17,7 +17,8 @@ This programe is created to Visualize the data inside the data.csv file, which i
 To deploy this project run this command in cmd after navigating to the location of the file stored
 
 ```bash
-  pyhton -i programe.py
+  pyhton -i programe.py![Capture](https://github.com/asetic003/Renewable-Energy-Data-Visualization/assets/118185716/f29f1fd2-ed65-4b00-b349-f44baaaca95d)
+
 ```
 or just run the programe.py programe using python
 
