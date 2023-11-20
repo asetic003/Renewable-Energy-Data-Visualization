@@ -20,21 +20,21 @@ class Window(QDialog):
         self.xLabel.setBuddy(self.xComboBox)
 
         self.figure, self.ax = plt.subplots()
-        self.line, = self.ax.plot([], [])  # Initialize an empty line
+        self.line, = self.ax.plot([], [])  
 
         self.canvas = FigureCanvas(self.figure)
 
         self.slider_start = QSlider(Qt.Horizontal, self)
         self.slider_end = QSlider(Qt.Horizontal, self)
 
-        # Set the range for the sliders (1965 to 2022)
+   
         self.slider_start.setMinimum(1965)
         self.slider_start.setMaximum(2022)
-        self.slider_start.setValue(1965)  # Set an initial value
+        self.slider_start.setValue(1965)  
 
         self.slider_end.setMinimum(1965)
         self.slider_end.setMaximum(2022)
-        self.slider_end.setValue(2022)  # Set an initial value
+        self.slider_end.setValue(2022)  
 
         self.slider_start.setTickPosition(QSlider.TicksBothSides)
         self.slider_start.setTickInterval(5)
@@ -68,19 +68,15 @@ class Window(QDialog):
 
         selected_years = country_data[(country_data['Year'] >= start_year) & (country_data['Year'] <= end_year)]
 
-        # Clear the previous plot
         self.ax.clear()
 
-        # Plotting data (replace 'Year' and 'Percentage' with your actual column names)
         self.ax.plot(selected_years['Year'], selected_years['percentage score'])
 
-        # Set labels and title
         self.ax.set(xlabel='Years', ylabel='Percentage', title=f'Renewable Energy Percentage Over Years - {country}')
 
-        # Draw the new graph
         self.canvas.draw()
 
-        # Update the range label
+       
         self.range_label.setText(f"Selected Range: {start_year} to {end_year}")
 
 if __name__ == '__main__':
