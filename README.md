@@ -8,10 +8,11 @@ This programe is created to Visualize the data inside the data.csv file, which i
 
 ## Screenshots
 
-[App Screenshot]
+[Capture](https://github.com/asetic003/Renewable-Energy-Data-Visualization/assets/118185716/c58a234d-8a02-4ba8-ba50-3c562dc88bee)
 
 
-## Deployment
+## Deployment!
+
 
 To deploy this project run this command in cmd after navigating to the location of the file stored
 
