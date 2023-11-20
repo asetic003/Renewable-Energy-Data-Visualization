@@ -27,8 +27,7 @@ or just run the programe.py programe using python
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`pyQt5`![Capture](https://github.com/asetic003/Renewable-Energy-Data-Visualization/assets/118185716/c48ad614-1750-4a2f-b2ce-45d44232e332)
-
+`pyQt5`
 `matlibplot`
 `pandas`
 `numpy`
