@@ -37,4 +37,5 @@ To run this project, you will need to add the following environment variables to
 
 ## Documentation
  this was created using pyqt5 gui inteface code in pyhton all the required files are provide above 
+ https://medium.com/@ajinkrishna0001/a-beginners-project-to-data-visualization-with-pyqt5-pandas-and-matplotlib-ad12ecd5baba
 
